@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --nav-offset: 70px;
+}
+
+section {
+  scroll-margin-top: var(--nav-offset);
+}
+
+body {
+  background-color: #222831;
+}
