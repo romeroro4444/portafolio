@@ -6,7 +6,7 @@ const Navbar = () => {
     <header className="fixed top-0 left-0 right-0 w-full z-50 bg-[#222831]/95 text-[#EEEEEE] border-b border-[#393E46]">
       <nav className="container mx-auto flex justify-between items-center py-3 px-4 md:px-20 lg:px-32 bg-transparent">
         <h1 className="text-lg font-bold text-accent text-[#EEEEEE]">
-          Rodrigo Andrés Romero Rojas
+          Rodrigo Romero · Software Developer
         </h1>
         <ul className="hidden md:flex gap-6 text-sm text-[#EEEEEE]">
           <li>

@@ -6,27 +6,27 @@ import Biblioteca from "./../assets/Biblioteca.webp";
 const sampleProjects = [
   {
     id: 1,
-    title: "Red de Servicios de Profesionales ",
+    title: "Red de Servicios de Profesionales",
     description:
-      "Plataforma para conectar profesionales independientes con clientes, facilitando la publicación de servicios y gestión de solicitudes. ",
+      "Plataforma web para vincular profesionales con clientes, integrando autenticación con JWT, publicación de servicios y gestión de solicitudes.",
     image: tuexperto,
-    tags: ["React", "Node.js", "PostgreSQL", "JWT"],
+    tags: ["React", "Node.js", "PostgreSQL", "Express", "JWT"],
   },
   {
     id: 2,
-    title: " Plataforma de Adopción de Mascotas",
+    title: "Plataforma de Adopción de Mascotas",
     description:
-      "Aplicación web que permite publicar, buscar y adoptar mascotas. Incluye autenticación, manejo de perfiles y comunicación entre usuarios.",
+      "Proyecto colaborativo orientado a la gestión de adopciones, creación de perfiles y conexión entre refugios y adoptantes.",
     image: PawsAdopt,
-    tags: ["React", "Node.js", "MongoDB"],
+    tags: ["React", "Node.js", "MongoDB", "Express"],
   },
   {
     id: 3,
-    title: "Sistema de Biblioteca",
+    title: "Sistema de Biblioteca Digital",
     description:
-      "Sistema web colaborativo para la gestión de libros, mangas y videos, con funcionalidades CRUD y filtrado dinámico.",
+      "Aplicación colaborativa para la administración de libros, revistas y material audiovisual, con operaciones CRUD y gestión de catálogo.",
     image: Biblioteca,
-    tags: ["React", "Node.js "],
+    tags: ["React", "Node.js", "Express"],
   },
 ];
 

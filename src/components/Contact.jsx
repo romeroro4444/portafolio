@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaGithub, FaEnvelope } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaEnvelope, FaPhone } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -9,6 +9,12 @@ const Contact = () => {
     >
       <h2 className="text-2xl font-semibold mb-4">Información de Contacto</h2>
       <div className="bg-[#393E46] rounded-lg p-4 md:p-6">
+        <ContactRow
+          icon={<FaPhone className="text-[#00ADB5] w-5 h-5" />}
+          label="Teléfono"
+          value="+56 9 6915 0614"
+        />
+
         <ContactRow
           icon={<FaEnvelope className="text-[#00ADB5] w-5 h-5" />}
           label="Email"
@@ -37,7 +43,7 @@ function ContactRow({ icon, label, value }) {
       <div className="shrink-0">{icon}</div>
       <div className="min-w-0">
         <p className="font-bold text-sm">{label}:</p>
-        <p className="text-sm text-[#EEEEEE] wrap-break-word">{value}</p>
+        <p className="text-sm text-[#EEEEEE] break-words">{value}</p>
       </div>
     </div>
   );

@@ -2,40 +2,40 @@ import React from "react";
 import {
   FaLaptopCode,
   FaServer,
-  FaReact,
   FaDatabase,
   FaCogs,
+  FaAndroid,
 } from "react-icons/fa";
 
 const services = [
   {
     id: 1,
-    title: "Desarrollo Web/Móvil Full Stack",
-    desc: "Creación de aplicaciones completas, desde la interfaz de usuario hasta la lógica del servidor y la base de datos.",
+    title: "Desarrollo Web y Full Stack",
+    desc: "Construcción de aplicaciones web completas desde el frontend hasta backend y base de datos con enfoque en mantenibilidad.",
     Icon: FaLaptopCode,
   },
   {
     id: 2,
     title: "Desarrollo de APIs REST",
-    desc: "Diseño e implementación de APIs robustas, seguras y escalables para conectar servicios y aplicaciones.",
+    desc: "Diseño e integración de APIs REST para conectar servicios y aplicaciones con buenas prácticas de seguridad y escalabilidad.",
     Icon: FaServer,
   },
   {
     id: 3,
-    title: "Desarrollo con React",
-    desc: "Construcción de interfaces de usuario interactivas y dinámicas utilizando el ecosistema de React.",
-    Icon: FaReact,
+    title: "Desarrollo Android (Kotlin)",
+    desc: "Implementación de funcionalidades móviles con Kotlin bajo arquitectura MVVM, integrando Retrofit y Room (SQLite).",
+    Icon: FaAndroid,
   },
   {
     id: 4,
     title: "Gestión de Bases de Datos",
-    desc: "Modelado, implementación y administración de bases de datos relacionales y no relacionales.",
+    desc: "Modelado e implementación de bases de datos relacionales y no relacionales como PostgreSQL, MongoDB, SQLite y SQL Server.",
     Icon: FaDatabase,
   },
   {
     id: 5,
-    title: "Optimización y Automatización",
-    desc: "Mejora del rendimiento de aplicaciones y automatización de procesos para aumentar la eficiencia.",
+    title: "Arquitectura y Mejora Continua",
+    desc: "Aplicación de prácticas de arquitectura, versionado con GitFlow y mejora continua para soluciones tecnológicas escalables.",
     Icon: FaCogs,
   },
 ];

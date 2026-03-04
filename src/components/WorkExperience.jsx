@@ -4,12 +4,21 @@ import { FaBriefcase } from "react-icons/fa6";
 const experiences = [
   {
     id: 1,
+    role: "Práctica Profesional – Desarrollo de Software",
+    company: "DUHOVIT (Proyecto ENAMI)",
+    companyUrl: "https://www.linkedin.com/company/duhovit/",
+    period: "dic. 2025 — feb. 2026",
+    description:
+      "Integrante del equipo de desarrollo en proyecto corporativo para ENAMI. Desarrollo Android con Kotlin bajo arquitectura MVVM, integración de APIs REST con Retrofit y persistencia local con Room (SQLite), fortaleciendo el enfoque offline-first. Implementación de funcionalidades y trabajo colaborativo bajo GitFlow junto a backend.",
+  },
+  {
+    id: 2,
     role: "Soporte TI, C&C Consultores",
     company: "C&C Consultores",
     companyUrl: "https://consultorescyc.cl/",
     period: "dic. 2023 — ene. 2024",
     description:
-      "Atención a usuarios, configuración de equipos y gestión de incidencias. Aprendizaje en resolución de problemas técnicos y administración básica de infraestructura. ",
+      "Soporte técnico y apoyo operativo al área de marketing y capacitación. Administración de Moodle y Zoom, gestión de bases de datos y automatización de correos masivos, optimizando procesos internos.",
   },
 ];
 

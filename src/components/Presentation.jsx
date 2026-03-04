@@ -19,12 +19,13 @@ const Presentation = () => {
             Hola, soy <span className="text-[#00ADB5]">Rodrigo</span>
           </h2>
           <p className="mt-3 text-[#EEEEEE] text-lg">
-            Estudiante de Ingeniería en Computación e Informática
+            Ingeniero en Computación e Informática · Desarrollador de Software
           </p>
 
           <p className="mt-5 text-[#cfcfcf] max-w-3xl leading-relaxed text-base">
-            Apasionado por la tecnología y el desarrollo full-stack, enfocado en
-            construir aplicaciones web modernas y de alto rendimiento.
+            Desarrollo soluciones web y móviles en entornos productivos,
+            combinando enfoque full stack, arquitectura limpia y mejora
+            continua.
           </p>
 
           <div className="mt-6 flex flex-wrap items-center gap-4">
@@ -94,22 +95,18 @@ const Presentation = () => {
         </h2>
         <div className="mt-3">
           <p className="text-[#EEEEEE] text-lg max-w-4xl text-justify">
-            Soy estudiante de Ingeniería en Computación e Informática con una
-            sólida formación técnica y una fuerte orientación hacia el
-            desarrollo de software. Me especializo en la construcción de
-            aplicaciones web y móviles, abarcando tanto el frontend como el
-            backend, mediante el uso de tecnologías modernas como React,
-            Node.js, MongoDB y PostgreSQL. Durante mi formación universitaria he
-            desarrollado diversos proyectos que fortalecieron mis habilidades en
-            trabajo colaborativo, resolución de problemas y diseño de soluciones
-            escalables. Mi motivación se centra en seguir perfeccionando mis
-            competencias como desarrollador full stack y aportar en entornos
-            donde la innovación tecnológica y la mejora continua sean parte
-            fundamental del trabajo. Destaco por mi responsabilidad,
-            creatividad, aprendizaje rápido y capacidad de adaptación,
-            cualidades que me permiten integrarme eficazmente en equipos
-            multidisciplinarios y contribuir activamente al logro de los
-            objetivos institucionales y de desarrollo tecnológico.
+            Desarrollador de Software e Ingeniero en Computación e Informática
+            con experiencia en desarrollo móvil y web en entornos productivos.
+            Participé en proyectos corporativos para ENAMI, desarrollando
+            soluciones Android en Kotlin bajo arquitectura MVVM, integrando APIs
+            REST con Retrofit y persistencia local con Room (SQLite), reforzando
+            un enfoque offline-first. Además, cuento con experiencia en
+            desarrollo web full stack utilizando React, Node.js, Express y bases
+            de datos relacionales y no relacionales. Me motiva aportar en
+            proyectos de desarrollo de software, arquitectura de sistemas y
+            soluciones tecnológicas escalables, colaborando con equipos
+            multidisciplinarios bajo buenas prácticas de versionado y trabajo
+            ágil.
           </p>
         </div>
       </div>

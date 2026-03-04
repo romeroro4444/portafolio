@@ -3,6 +3,7 @@ import {
   SiJavascript,
   SiPython,
   SiC,
+  SiKotlin,
   SiReact,
   SiHtml5,
   SiCss3,
@@ -11,10 +12,15 @@ import {
   SiPostgresql,
   SiMongodb,
   SiGit,
+  SiGitlab,
   SiGithub,
   SiExpress,
   SiJsonwebtokens,
+  SiSqlite,
+  SiAndroid,
+  SiPostman,
 } from "react-icons/si";
+import { DiMsqlServer } from "react-icons/di";
 
 const groups = [
   {
@@ -23,6 +29,7 @@ const groups = [
       { icon: SiJavascript, label: "JavaScript" },
       { icon: SiPython, label: "Python" },
       { icon: SiC, label: "C" },
+      { icon: SiKotlin, label: "Kotlin" },
     ],
   },
   {
@@ -47,6 +54,15 @@ const groups = [
     icons: [
       { icon: SiPostgresql, label: "PostgreSQL" },
       { icon: SiMongodb, label: "MongoDB" },
+      { icon: SiSqlite, label: "SQLite" },
+      { icon: DiMsqlServer, label: "SQL Server" },
+    ],
+  },
+  {
+    title: "Mobile y herramientas",
+    icons: [
+      { icon: SiAndroid, label: "Android" },
+      { icon: SiPostman, label: "Postman" },
     ],
   },
   {
@@ -54,6 +70,7 @@ const groups = [
     icons: [
       { icon: SiGit, label: "Git" },
       { icon: SiGithub, label: "GitHub" },
+      { icon: SiGitlab, label: "GitLab" },
     ],
   },
 ];
@@ -65,14 +82,15 @@ const Skills = () => {
     "Adaptabilidad y aprendizaje continuo",
     "Comunicación efectiva",
     "Trabajo en equipo y colaboración",
+    "Resolución de problemas",
   ];
 
   const areasInterest = [
     "Desarrollo web y móvil",
     "Arquitecturas full stack",
-    "Innovación y transformación digital",
-    "Aplicaciones interactivas con enfoque en experiencia de usuario",
-    "Integración de servicios y APIs",
+    "Arquitectura de sistemas escalables",
+    "Integración de servicios y APIs REST",
+    "Buenas prácticas de control de versiones (GitFlow)",
   ];
 
   return (
@@ -119,6 +137,22 @@ const Skills = () => {
               className="inline-block bg-[#222831] border border-[#2f3336] text-[#EEEEEE] px-4 py-2 rounded-full mr-3 text-sm"
             >
               {s}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      <div className="mt-8">
+        <h3 className="text-2xl font-semibold text-[#EEEEEE] mb-4">
+          Áreas de interés
+        </h3>
+        <div className="flex flex-wrap">
+          {areasInterest.map((area) => (
+            <span
+              key={area}
+              className="inline-block bg-[#222831] border border-[#2f3336] text-[#EEEEEE] px-4 py-2 rounded-full mr-3 text-sm mb-3"
+            >
+              {area}
             </span>
           ))}
         </div>
