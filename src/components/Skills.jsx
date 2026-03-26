@@ -19,8 +19,10 @@ import {
   SiSqlite,
   SiAndroid,
   SiPostman,
+  SiDotnet,
 } from "react-icons/si";
-import { DiMsqlServer } from "react-icons/di";
+import { DiJava, DiMsqlServer } from "react-icons/di";
+import { TbBrandCSharp } from "react-icons/tb";
 
 const groups = [
   {
@@ -30,6 +32,8 @@ const groups = [
       { icon: SiPython, label: "Python" },
       { icon: SiC, label: "C" },
       { icon: SiKotlin, label: "Kotlin" },
+      { icon: DiJava, label: "Java" },
+      { icon: TbBrandCSharp, label: "C#" },
     ],
   },
   {
@@ -45,6 +49,7 @@ const groups = [
     title: "Backend",
     icons: [
       { icon: SiNodedotjs, label: "Node.js" },
+      { icon: SiDotnet, label: ".NET" },
       { icon: SiExpress, label: "Express" },
       { icon: SiJsonwebtokens, label: "JWT" },
     ],

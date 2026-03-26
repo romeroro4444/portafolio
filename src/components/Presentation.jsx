@@ -23,9 +23,9 @@ const Presentation = () => {
           </p>
 
           <p className="mt-5 text-[#cfcfcf] max-w-3xl leading-relaxed text-base">
-            Desarrollo soluciones web y móviles en entornos productivos,
-            combinando enfoque full stack, arquitectura limpia y mejora
-            continua.
+            Desarrollo soluciones backend y web, enfocadas en APIs, integración
+            de sistemas y arquitecturas escalables, aplicando buenas prácticas y
+            mejora continua.
           </p>
 
           <div className="mt-6 flex flex-wrap items-center gap-4">
@@ -96,17 +96,14 @@ const Presentation = () => {
         <div className="mt-3">
           <p className="text-[#EEEEEE] text-lg max-w-4xl text-justify">
             Desarrollador de Software e Ingeniero en Computación e Informática
-            con experiencia en desarrollo móvil y web en entornos productivos.
-            Participé en proyectos corporativos para ENAMI, desarrollando
-            soluciones Android en Kotlin bajo arquitectura MVVM, integrando APIs
-            REST con Retrofit y persistencia local con Room (SQLite), reforzando
-            un enfoque offline-first. Además, cuento con experiencia en
-            desarrollo web full stack utilizando React, Node.js, Express y bases
-            de datos relacionales y no relacionales. Me motiva aportar en
-            proyectos de desarrollo de software, arquitectura de sistemas y
-            soluciones tecnológicas escalables, colaborando con equipos
-            multidisciplinarios bajo buenas prácticas de versionado y trabajo
-            ágil.
+            orientado al desarrollo backend y full stack. Cuento con experiencia
+            en desarrollo de APIs REST, manejo de bases de datos relacionales y
+            no relacionales, e integración de sistemas. He participado en
+            proyectos de desarrollo web y móvil en entornos productivos,
+            trabajando con tecnologías como Node.js, React y bases de datos como
+            PostgreSQL y MongoDB. Me interesa desarrollarme como Ingeniero de
+            Software, participando en la construcción de sistemas escalables,
+            eficientes y con impacto real.
           </p>
         </div>
       </div>
